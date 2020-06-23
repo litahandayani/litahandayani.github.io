@@ -1,0 +1,18 @@
+/* Untuk bagian Body 2 atau halam isi (JANGAN DIHAPUS) */
+
+@media only screen and (min-width: 800px) {
+    .band {
+      grid-template-columns: 1fr 1fr;
+    }  
+  }
+  @media only screen and (min-width: 300px) {
+    .band {
+      grid-template-columns: 1fr;
+    }  
+  }
+  
+  @media only screen and (min-width: 1170px) {
+    .band {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
