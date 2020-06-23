@@ -4,18 +4,46 @@ body{
   background: #F8F8FF;
   font-family: "verdana";
   }
-  .container {
+.container {
   max-width: 1170px;
   width: 100%;
   padding: 0 10px;
   margin: 0 auto;
   }
-  header {
+li {
+  list-style: none;
+}
+header {
   height: 100px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
-  position :relative;
-  top: 0;
+  margin:10px 40px 60px 40px;
+}
+.header-logo{
+  float: left;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.loginatas {
+  width: auto;
+  float: right;
+  padding: 10px 18px;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: #FFC000;
+  cursor: pointer;
+}
+
+.header-menu li{
+  font-family: sans-serif;
+  float: right; 
+  padding: 5px 22px 10px 22px ;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.header-menu li:hover{
+  color: blue;
+  border-bottom: 2px solid blue;
 }
 
 .sub-header {
@@ -25,42 +53,7 @@ background-color:#F8F8FF;
 position :relative;
 top:0;
 border-top: 1px solid black;
-}
 
-.logo {
-  width: 124px;
-  margin: 5px;
-}
-
-.header-left {
-  float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: 5px;
-}
-
-.header-right a {
-  line-height: 100px;
-  padding: 0 25px;
-  color: #10339e;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.header-right a:hover {
-  background-color: rgba(102, 255, 51, 0.3);
-}
-
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  /* Gantikan property display ke none */
-  display:none;
 }
 
 .slidershow{
@@ -197,9 +190,8 @@ input[name="r"]{
 .footer {
   overflow: hidden;
   background-color: rgb(235, 235, 235);
-  margin: 0 auto;
-  /* width:1170px; */
-  width: 0 auto;
+  margin:0 auto;
+  width:1170px;
   padding-bottom: 30px;
 }
 .footer-list{

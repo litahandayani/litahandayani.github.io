@@ -1,18 +1,39 @@
 /* Untuk bagian Body 2 atau halam isi (JANGAN DIHAPUS) */
 
-@media only screen and (min-width: 800px) {
-    .band {
-      grid-template-columns: 1fr 1fr;
-    }  
+@media only screen and (max-width: 1000px) {
+  .band {
+    grid-template-columns: 1fr;
   }
-  @media only screen and (min-width: 300px) {
-    .band {
-      grid-template-columns: 1fr;
-    }  
+  header{
+    margin:0 auto;
+    margin-bottom: 20px;
   }
-  
-  @media only screen and (min-width: 1170px) {
-    .band {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+  .header-logo{
+    width: 50%;
+    height: 50%;
+    padding: 0 1px 0 0;
+    margin: 0 auto;
+    margin-top: 1px;
   }
+  .header-menu ul{
+    width: 50%;
+    height: 30%;
+    padding:1px 2px 1px 2px;
+    margin:0 auto;
+    float:left;
+  }
+
+ }
+@media only screen and (min-width: 670px) {
+  .band {
+    grid-template-columns: 1fr 1fr ;
+  }
+
+}
+
+
+@media only screen and (min-width: 1170px) {
+  .band {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
